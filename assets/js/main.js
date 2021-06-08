@@ -87,16 +87,9 @@ var v = [1,2,3,4,5];
 for (var w = 0; w < v.length; w++) {
     // 0 < 5
     // 0,1,2,3,4
-    v.pop();  
+    v.pop();
+  
 }
 console.log(v);
 // Array Vacio
-
-function b() {
-    console.log('hola');
-    return 15;
-}
-var x = b();
-console.log('x es', x);
-
-
+// []
