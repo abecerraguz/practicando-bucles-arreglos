@@ -91,3 +91,12 @@ for (var w = 0; w < v.length; w++) {
 }
 console.log(v);
 // Array Vacio
+
+function b() {
+    console.log('hola');
+    return 15;
+}
+var x = b();
+console.log('x es', x);
+
+
